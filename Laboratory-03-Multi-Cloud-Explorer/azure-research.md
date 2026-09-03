@@ -35,3 +35,5 @@ Provides identity and access management.
 ## 6. Typical Enterprise Use Cases
 
 Azure can be used for enterprise applications, Windows workloads, databases, identity management, application development, analytics, and hybrid cloud environments.
+
+<img width="1897" height="852" alt="image" src="https://github.com/user-attachments/assets/4dad0546-db78-4529-a9ce-56e5aebefefe" />
