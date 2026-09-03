@@ -36,4 +36,5 @@ AWS Identity and Access Management controls access to AWS resources and services
 
 AWS can be used by enterprises for web applications, data storage, databases, backup, analytics, and large-scale cloud infrastructure.
 
+<img width="1900" height="780" alt="image" src="https://github.com/user-attachments/assets/7a807319-1722-494c-b67f-5773a46caffa" />
 
