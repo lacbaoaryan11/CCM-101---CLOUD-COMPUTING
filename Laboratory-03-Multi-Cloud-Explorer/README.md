@@ -3,13 +3,6 @@
 This laboratory explores and compares Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
 
 
-# Laboratory 03 – Multi-Cloud Explorer
-
-## Checkpoint 7 – Linux Investigation
-
-For this checkpoint, I used an Ubuntu Linux environment in the KillerCoda Playground. I used Linux commands to identify the operating system, CPU information, memory, and disk space.
-
----
 
 ## 1. Operating System
 
