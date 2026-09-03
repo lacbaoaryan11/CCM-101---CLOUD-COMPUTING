@@ -36,3 +36,4 @@ Provides managed Kubernetes infrastructure.
 
 Google Cloud can be used for artificial intelligence, machine learning, analytics, web applications, data processing, and containerized applications.
 
+<img width="1902" height="862" alt="image" src="https://github.com/user-attachments/assets/917d7143-7609-4491-a68b-c487c889fbec" />
