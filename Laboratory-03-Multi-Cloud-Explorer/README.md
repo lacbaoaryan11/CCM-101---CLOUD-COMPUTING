@@ -102,9 +102,10 @@ Usage: 30%
 Mounted on: /
 
 
-![Disk Space]
+  
 
 ---
+<img width="1332" height="817" alt="image" src="https://github.com/user-attachments/assets/ac64bc9f-e9f8-420e-bfc2-ba99a1fc5909" />
 
 ## 5. Cloud Migration
 
