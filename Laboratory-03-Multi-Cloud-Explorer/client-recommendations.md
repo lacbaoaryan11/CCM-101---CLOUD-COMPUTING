@@ -70,3 +70,14 @@ I recommend AWS because the e-commerce company needs highly available infrastruc
 2. **Amazon S3** – Provides scalable object storage for files, images, and other data.
 3. **Elastic Load Balancing** – Distributes incoming application traffic across available resources.
 
+
+# Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | [Your choice] | [Why?] |
+| Enterprise Organization | [Your choice] | [Why?] |
+| Microsoft Environment | Azure | Strong Microsoft integration |
+| AI / Machine Learning | [Your choice] | [Why?] |
+| Kubernetes Deployment | [Your choice] | [Why?] |
+| Global Web Application | [Your choice] | [Why?] |
