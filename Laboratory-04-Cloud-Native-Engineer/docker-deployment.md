@@ -15,11 +15,11 @@
 3. `docker pull nginx`
    - **Explanation:** Downloads the official Nginx image from Docker Hub so it can be used to create an Nginx container.
 
-4. `docker run -d -p 8080:80 --name my-nginx-server nginx`
+4. `docker run -d -p 8080:80 --name nginx-server nginx`
    - **Explanation:** Creates and runs the Nginx container in detached mode, mapping port `8080` on the host to port `80` inside the container.
 
 5. `docker ps`
-   - **Explanation:** Displays all active, currently running containers and shows information such as the container ID, image, status, and port mapping.
+   - **Explanation:** Displays the active Nginx container and shows information such as the container ID, image, status, ports, and container name.
 
 6. `curl http://localhost:8080`
    - **Explanation:** Sends an HTTP request to the Nginx web server through port `8080` and verifies that the containerized web server is working correctly.
@@ -27,33 +27,23 @@
 ## Container Lifecycle Commands
 
 7. `docker ps`
-   - **Explanation:** Displays all active, currently running containers along with their container IDs, image names, status, and port mappings.
+   - **Explanation:** Displays all active, currently running containers.
 
-8. `docker stop my-nginx-server`
-   - **Explanation:** Stops the running `my-nginx-server` container gracefully without removing the container.
+8. `docker stop nginx-server`
+   - **Explanation:** Stops the running `nginx-server` container gracefully without removing the container.
 
 9. `docker ps -a`
-   - **Explanation:** Lists all containers on the host system, including those that are currently running or stopped.
+   - **Explanation:** Lists all containers on the host system, including running and stopped containers, allowing the stopped Nginx container to be verified.
 
-10. `docker rm my-nginx-server`
-    - **Explanation:** Permanently deletes the stopped `my-nginx-server` container instance from the Docker environment.
+10. `docker rm nginx-server`
+    - **Explanation:** Permanently removes the stopped `nginx-server` container from the Docker environment.
 
 11. `docker ps -a`
-    - **Explanation:** Verifies that the `my-nginx-server` container has been removed and no longer appears in the list of containers.
+    - **Explanation:** Verifies that the `nginx-server` container has been removed and no longer appears in the container list.
 
 ## Terminal Output Screenshot
 
-Below are the screenshots showing the execution and verification of the Docker commands:
-
-### Docker Verification
-
-![Docker Version](screenshots/docker-version.png)
-
-### Nginx Deployment
-
-![Nginx Running](screenshots/nginx-running.png)
-<img width="1166" height="352" alt="image" src="https://github.com/user-attachments/assets/436e8e2d-4195-4462-8551-cd21ccddfe99" />
-
-### Container Lifecycle
+The screenshot below shows the execution of the container lifecycle commands:
 
 ![Container Lifecycle](screenshots/container-lifecycle.png)
+<img width="1197" height="355" alt="image" src="https://github.com/user-attachments/assets/b93ab1d4-07e4-4b96-a07a-30124ede82b0" />
